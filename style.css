@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.hero{
+    height: 100vh;
+    background: url(foot.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+.contanier{
+    width: 90%;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+header .logo{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+}
+header .nav-links{
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-left: 50px;
+}
+header .nav-links a:hover,
+header .nav-links a.active{
+    color: #15ccba;
+
+}
+header .nav-links a.btn{
+    background-color: #15ccba;
+    padding: 18px 25px;
+    border-radius: 30px;
+    color: #fff;
+    border: 2px solid #15ccba;
+}
+header .nav-links a.btn:hover{
+   background-color: transparent;
+}
+header .nav-links a.btne{
+    background-color: #15ccba;
+    padding: 18px 25px;
+    border-radius: 30px;
+    color: #fff;
+    border: 2px solid #15ccba;
+}
+header .nav-links a.btne:hover{
+   background-color: transparent;
+}
+header .nav-links a.btnes{
+    background-color: #15ccba;
+    padding: 18px 25px;
+    border-radius: 30px;
+    color: #fff;
+    border: 2px solid #15ccba;
+}
+header .nav-links a.btnes:hover{
+   background-color: transparent;
+}
+.me{
+    color: black;
+    font-size: 20px;
+}
